@@ -53,7 +53,7 @@ function boardCheck() {
 					<input type="button" value="비밀번호 찾기" onClick="location.href='/user/pwdFind'">
 				</div>
 				<div class="btns-social">
-					<a href="https://kauth.kakao.com/oauth/authorize?client_id=bea908dc4fb5d657540741dd3523eefd&redirect_uri=http://13.125.86.26:8080/oauth/kakao/callback/&response_type=code">
+					<a href="https://kauth.kakao.com/oauth/authorize?client_id=bea908dc4fb5d657540741dd3523eefd&redirect_uri=http://localhost/oauth/kakao/callback&response_type=code">
 						<img src="/images/ico_kakao.png" >
 					</a>
 					<a href="https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=gWHz98Kmv8VTU8BIGrB2&redirect_uri=http://13.125.86.26:8080/oauth/naver/callback&state=1234">
